@@ -14,10 +14,11 @@ DCP delivers its dedicated data analytics and visualization concepts as modules 
 
 DCP modules and client libraries are published across official package registries:
 
-* **GitHub:** [https://github.com/orgs/Roche/repositories?q=dcp-](https://github.com/orgs/Roche/repositories?q=dcp-*)
+* **GitHub:** [https://github.com/orgs/Roche/repositories?q=dcp-](https://github.com/orgs/Roche/repositories?q=dcp-)
 * **npm:** [@open-dcp](https://www.npmjs.com/org/open-dcp)
 * **Documentation & Guides:** [docs.open-dcp.ai](https://docs.open-dcp.ai)
-- *Upcoming Registries:* Packagist (PHP), NuGet (.NET), CRAN (R), Container Images
+
+*Upcoming Registries:* Packagist (PHP), NuGet (.NET), CRAN (R), Container Images
 
 ## Learning DCP
 
