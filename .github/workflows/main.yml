@@ -33,8 +33,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          registry-url: 'https://registry.npmjs.org'
 
       - name: Publish to npm
+      # Explicitly blank out NODE_AUTH_TOKEN in case it exists in repository-wide secrets/environments
+        env:
+          NODE_AUTH_TOKEN: ""
         run: npm publish --provenance --access public
         
