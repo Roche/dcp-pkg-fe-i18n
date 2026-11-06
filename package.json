@@ -1,6 +1,6 @@
 {
   "name": "@open-dcp/i18n",
-  "version": "0.0.4",
+  "version": "x.x.x",
   "description": "Open DCP shared translations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
