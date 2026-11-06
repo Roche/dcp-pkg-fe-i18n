@@ -1,0 +1,47 @@
+{
+    "filter": "Filter",
+    "clear": "Zurücksetzen",
+    "combine-with": "Filter kombinieren mit",
+    "value": "Wert",
+    "durtation": "Dauer",
+    "date": "Datum",
+    "time": "Zeit",
+    "start": "Start",
+    "end": "Ende",
+    "label": {
+        "column": "Spalte",
+        "groupOperator": "Gruppen-Operator",
+        "remove-group": "Gruppe entfernen",
+        "add-condition": "Bedingung hinzufügen",
+        "add-group": "Gruppe hinzufügen"
+    },
+    "operator": {
+        "equals": "Gleich",
+        "notEquals": "Ungleich",
+        "greaterThan": "Größer als",
+        "lessThan": "Kleiner als",
+        "greaterThanOrEqual": "Größer oder gleich",
+        "lessThanOrEqual": "Kleiner oder gleich",
+        "contains": "Enthält",
+        "doesNotContain": "Enthält nicht",
+        "startsWith": "Beginnt mit",
+        "doesNotStartWith": "Beginnt nicht mit",
+        "endsWith": "Endet mit",
+        "doesNotEndWith": "Endet nicht mit",
+        "matches": "Entspricht",
+        "isTrue": "Ist wahr",
+        "isFalse": "Ist falsch",
+        "in": "Ist in",
+        "notIn": "Ist nicht in",
+        "isNull": "Ist leer",
+        "isNotNull": "Ist nicht leer",
+        "empty": "Leer",
+        "notEmpty": "Nicht leer",
+        "between": "Zwischen",
+        "notBetween": "Nicht zwischen"
+    },
+    "groupOperator": {
+        "and": "Und",
+        "or": "Oder"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "clear-selection": "Clear Selection",
+    "select-all": "Select All",
+    "batch-running": "Running",
+    "column-view": "Column View",
+    "columns": {
+        "start-time": "Start Time",
+        "end-time": "End Time",
+        "duration": "Duration"
+    },
+    "tooltips": {
+        "duration-plot": "Show Duration Plot",
+        "download-file": "Download File",
+        "column-view": "Show Column View"
+    },
+    "data-attributes": "Data Attributes",
+    "duration-plot": {
+      "title": "Duration Plot",
+      "no-data": "No data available for the chart.",
+      "x-axis": "X axis"
+    },
+    "configure-columns": {
+        "title": "Configure Columns",
+        "empty-state": "No columns available to configure.",
+        "default-section-title": "Default columns",
+        "loaded-section-title": "Loaded columns"
+    },
+    "selection-scope": {
+        "all": "All",
+        "selected": "Selected",
+        "unselected": "Unselected"
+    }
+}

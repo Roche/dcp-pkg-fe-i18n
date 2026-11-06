@@ -1,0 +1,12 @@
+{
+    "level": "Level",
+    "device": "Gerät",
+    "group": "Sensorgruppe",
+    "select-sensor": "Sensor auswählen",
+    "select-sensors": "Sensoren auswählen",
+    "formula": "Gleichung",
+    "define-formula": "Gleichung definieren",
+    "apply-formula": "Gleichung anwenden",
+    "cancel": "Abbrechen",
+    "loading": "Laden"
+}

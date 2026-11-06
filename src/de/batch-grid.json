@@ -1,0 +1,33 @@
+{
+    "clear-selection": "Auswahl aufheben",
+    "select-all": "Alle auswählen",
+    "batch-running": "Aktiv",
+    "column-selection": "Spaltenauswahl",
+    "columns": {
+        "start-time": "Startzeit",
+        "end-time": "Endzeit",
+        "duration": "Laufzeit"
+    },
+    "tooltips": {
+        "duration-plot": "Laufzeitdiagramm anzeigen",
+        "download-file": "Datei herunterladen",
+        "column-view": "Spaltenauswahl anzeigen"
+    },
+    "data-attributes": "Datenattribute",
+    "duration-plot": {
+      "title": "Laufzeitdiagramm",
+      "no-data": "Keine Daten für das Diagramm verfügbar.",
+      "x-axis": "X-Achse"
+    },
+    "configure-columns": {
+        "title": "Spalten konfigurieren",
+        "empty-state": "Keine Spalten zum Konfigurieren verfügbar.",
+        "default-section-title": "Standardspalten",
+        "loaded-section-title": "Geladene Spalten"
+    },
+    "selection-scope": {
+        "all": "Alle",
+        "selected": "Ausgewählte",
+        "unselected": "Nicht Ausgewählte"
+    }
+}

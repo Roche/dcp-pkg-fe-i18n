@@ -1,0 +1,12 @@
+{
+    "level": "Level",
+    "device": "Device",
+    "group": "Sensor Group",
+    "select-sensor": "Select Sensor",
+    "select-sensors": "Select Sensors",
+    "formula": "Formula",
+    "define-formula": "Define Formula",
+    "apply-formula": "Apply Formula",
+    "cancel": "Cancel",
+    "loading": "Loading"
+}

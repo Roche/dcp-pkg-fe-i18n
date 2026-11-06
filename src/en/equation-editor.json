@@ -1,0 +1,32 @@
+{
+    "invalid": "Invalid formula",
+    "editor-functions": {
+        "switch-to-chip": "Switch to chip mode",
+        "switch-to-raw": "Switch to raw mode",
+        "copy": "Copy formula"
+    },
+    "validations": {
+        "unbalanced-parentheses": "Unbalanced parentheses.",
+        "unbalanced-brackets": "Unbalanced brackets",
+        "min-variables": "The formula must contain at least {min} variable(s).",
+        "unknown-variable": "Unknown variable '{variable}'.",
+        "starts-with-operator": "The formula cannot start with an operator.",
+        "ends-with-operator": "The formula cannot end with an operator.",
+        "consecutive-vars-ops-nums": "Two operators, variables, or numbers cannot be consecutive.",
+        "invalid-operator-placement": "Invalid operator placement.",
+        "consecutive-operators": "Consecutive operators are not allowed.",
+        "contains-unknown-token": "Expression contains unknown token(s).",
+        "between-requires-brackets": "Between operators require brackets, for example: between [10, 20].",
+        "between-requires-three-sections": "Between operators require exactly two values separated by one comma.",
+        "list-operator-requires-brackets": "List operators require brackets, for example: in [1, 2, 3].",
+        "list-requires-values": "List must contain at least one value.",
+        "unmatched-bracket": "Bracket is not properly closed.",
+        "too-many-comparison-operators": "Too many comparison operators in expression.",
+        "equation-requires-operator": "The equation must contain an operator."
+    },
+    "parsers": {
+        "unclosed-string-literal": "Unclosed string literal at position {position}.",
+        "unclosed-variable-fence": "Unclosed variable fence at position {position}.",
+        "unknown-variable": "Warning: variable '${varName}' in fence at position ${i} not found in variableNames."
+    }
+}

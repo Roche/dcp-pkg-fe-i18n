@@ -1,0 +1,32 @@
+{
+    "invalid": "Ungültige Formel",
+    "editor-functions": {
+        "switch-to-chip": "In Chip Modus wechseln",
+        "switch-to-raw": "In Text Modus wechseln",
+        "copy": "Formel kopieren"
+    },
+    "validations": {
+        "unbalanced-parentheses": "Unausgeglichene Klammern.",
+        "unbalanced-brackets": "Unausgeglichene eckige Klammern.",
+        "min-variables": "Die Formel muss mindestens {min} Variable(n) enthalten.",
+        "unknown-variable": "Unbekannte Variable '{variable}'.",
+        "starts-with-operator": "Die Formel darf nicht mit einem Operator beginnen.",
+        "ends-with-operator": "Die Formel darf nicht mit einem Operator enden.",
+        "consecutive-vars-ops-nums": "Zwei Operatoren, Variablen oder Zahlen dürfen nicht aufeinander folgen.",
+        "invalid-operator-placement": "Ungültige Platzierung des Operators.",
+        "consecutive-operators": "Aufeinanderfolgende Operatoren sind nicht erlaubt.",
+        "contains-unknown-token": "Der Ausdruck enthält unbekannte Token.",
+        "between-requires-brackets": "Between-Operatoren benötigen eckige Klammern, z. B.: between [10, 20].",
+        "between-requires-three-sections": "Between-Operatoren benötigen genau zwei Werte, getrennt durch ein Komma.",
+        "list-operator-requires-brackets": "Listen-Operatoren erfordern eckige Klammern, zum Beispiel: in [1, 2, 3].",
+        "list-requires-values": "Die Liste muss mindestens einen Wert enthalten.",
+        "unmatched-bracket": "Die Klammer ist nicht richtig geschlossen.",
+        "too-many-comparison-operators": "Zu viele Vergleichsoperatoren im Ausdruck.",
+        "equation-requires-operator": "Die Gleichung muss einen Operatoren enthalten."
+    },
+    "parsers": {
+        "unclosed-string-literal": "Ungeöffneter String-Literal an Position {position}.",
+        "unclosed-variable-fence": "Ungeöffneter Variablenzaun an Position {position}.",
+        "unknown-variable": "Warnung: Variable '${varName}' im Zaun an Position ${i} nicht in variableNames gefunden."
+    }
+}

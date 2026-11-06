@@ -1,0 +1,18 @@
+{
+    "required": "Dieses Feld ist erforderlich.",
+    "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "minLength": "Die Mindestlänge beträgt {min} Zeichen.",
+    "maxLength": "Die maximale Länge beträgt {max} Zeichen.",
+    "pattern": "Bitte dem geforderten Format entsprechen.",
+    "number": "Bitte geben Sie eine gültige Zahl ein.",
+    "date": "Bitte geben Sie ein gültiges Datum ein.",
+    "time": "Bitte geben Sie eine gültige Uhrzeit ein.",
+    "url": "Bitte geben Sie eine gültige URL ein.",
+    "date-range-picker": {
+        "cancel": "Abbrechen",
+        "apply": "Anwenden",
+        "start-time": "Startzeit",
+        "end-time": "Endzeit",
+        "invalid": "Ungültiger Datumsbereich. Bitte das erwartete Format verwenden."
+    }
+}

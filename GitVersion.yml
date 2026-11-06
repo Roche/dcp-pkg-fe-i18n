@@ -1,0 +1,43 @@
+branches:
+  main:
+    regex: ^main$
+    increment: Patch
+    label: ''
+
+  develop:
+    regex: ^develop$
+    increment: Minor
+    label: alpha
+    source-branches: [main, feature, hotfix, release]
+
+  feature:
+    regex: ^feature(s)?[/-]
+    increment: Minor
+    label: useBranchName
+    source-branches: [develop, main]
+
+  bugfix:
+    regex: ^bugfix(es)?[/-]
+    increment: Patch
+    label: useBranchName
+    source-branches: [develop, main]
+
+  hotfix:
+    regex: ^hotfix(es)?[/-]
+    increment: Patch
+    label: beta
+    source-branches: [main, release]
+
+  release:
+    regex: ^release(s)?[/-]
+    increment: Minor
+    label: rc
+    source-branches: [develop, main]
+
+commit-message-incrementing: Enabled
+
+major-version-bump-message: '(?i)\b(breaking change|breaking|major)\b'
+minor-version-bump-message: '(?i)^feat(\(.+\))?:|\b(feature|minor)\b'
+patch-version-bump-message: '(?i)^(fix|chore|ci|docs)(\(.+\))?:|\b(patch)\b'
+
+assembly-informational-format: '{Major}.{Minor}.{Patch}{PreReleaseTagWithDash}'
